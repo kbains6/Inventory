@@ -15,6 +15,7 @@ Inventory::Inventory(string name, float price, int count)
 }
 
 // Lowers count of stock by one for object
+// if there is items in stock
 void Inventory::sell()
 {
   if(m_in_stock == 0){

@@ -7,7 +7,8 @@ using std::ostream;
 
 /*
  * Class that has an object with a name, price, and quanity
- * sell function lowers the stock by one
+ * sell function lowers the stock by one. print function displays
+ * price and name
  */
 class Inventory
 {
